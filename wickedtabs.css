@@ -73,6 +73,7 @@
 .tblrol>br {display:none;}
 .tblrol:after {content:"";position:relative;width:100%;height:10px;padding:1px;display:block;background:var(--accent);opacity:0.2;margin:-1px;}
 .tblrol .tblrtit {text-align:center;box-sizing:border-box;padding:33px;background:var(--tbckg1);}
+.tblrol * {position:relative;z-index:1;}
 .tblrol .tblrtit>br {display:none;}
 .tblrol .tblrtit>i {position:absolute;font-size:250px;opacity:0.2;color:var(--accent);}
 .tblrol .tblrtit>strong {text-transform:lowercase;font:normal var(--fontsize9) var(--font5);line-height:85%;color:var(--text0);word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;}
@@ -88,7 +89,6 @@
 .tblrol.v2 .tblrtdata {box-sizing:border-box;padding:20px;background:var(--tbckg1);justify-content:space-evenly;}
 .tblrol.v3 {position:relative;}
 .tblrol.v3:before {z-index:0;content:"";position:absolute;top:0px;left:0px;width:100%;height:100%;background:linear-gradient(0deg, var(--accent) 0%, var(--tbckg3) 60%);opacity:0.3;}
-.tblrol.v3 * {position:relative;z-index:1;}
 .tblrol.v3:after {display:none!important;}
 .tblrol.v3 .tblrcnt {border-bottom:none;}
 /* TABLILLA DE BAÚL */
