@@ -381,6 +381,9 @@
 .tbcomb.solo .tbco {align-self:stretch;justify-content:space-between;}
 .tbcomb.solo .tbco .tbcores {flex:1;}
 /* MEDIA */
+@media (max-width: 766px) {
+.tbficha .tbfisec2 .tbfidata>em>span {width:min-content;}
+}
 @media (max-width: 666px) {
 .tbla .tblatit, .tblrol .tblrtit {padding:20px;}
 .tbla .tblacnt, .tblrol .tblrcnt {padding:20px;}
@@ -398,6 +401,8 @@
 .tbseapj .tbsptit {padding:12px;}
 .tbficha .tbfisec3, .tbficha .tbfisec4, .tbficha .tbfshabs {padding:30px;}
 .tbficha .tbfshabs {margin:-30px -30px 0px -30px;}
+.tbficha .tbfisec2 .tbfidata>em {flex:1 0 16%;}
+.tbficha .tbfisec2 .tbfidata>em>strong {width:min-content;}
 }
 @media (max-width: 470px) {
 .tbla .tblatit, .tblrol .tblrtit {padding:14px;}
@@ -411,7 +416,6 @@
 .tbbaul .tbbimg>img {width:90px;height:90px;}
 .tbbrels .tbbrchar .tbbrcimg>img {width:70px;height:70px;}
 .tbseapj .tbspcnt {padding:12px;}
-.tbficha .tbfisec2 .tbfidata>em {flex:1 0 16%;}
 .tbficha .tbfisec2 .tbfistats>em {flex:1 0 30%;}
 .tbficha .tbfisec3, .tbficha .tbfisec4, .tbficha .tbfshabs {padding:20px;}
 .tbficha .tbfshabs {margin:-20px -20px 0px -20px;}
