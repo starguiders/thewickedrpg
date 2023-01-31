@@ -55,7 +55,7 @@
 .tbla h3#sirenas:after {background:var(--sirenas);}
 .tbla h3#humanos:after {background:var(--humanos);}
 /* TABLILLAS ADMINISTRATIVAS 2 */
-.tblm {margin:0 auto!important;max-width:360px;width:100%;border:var(--border1);background:var(--tbckg2);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;box-sizing:border-box;}
+.tblm {margin:0 auto!important;max-width:360px;width:100%;border:var(--border1);background:var(--tbckg2);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;box-sizing:border-box;flex-wrap:wrap;}
 .tblm:before {content:"\f004";position:absolute;z-index:0;font:700 160px 'Font Awesome 6 Pro' !important;font-style:normal;text-align:center;font-style:normal;color:var(--accent3);opacity:0.2;}
 .tblm .tblmcnt {display:flex;flex-direction:column;justify-content:center;align-content:center;text-align:center;box-sizing:border-box;padding:20px;position:relative;}
 .tblm .tblmcnt>br {display: none;}
@@ -68,6 +68,7 @@
 .tblm.tblden:before {content:"\f057"!important;}
 .tblm.tblreg:before {content:"\f085"!important;}
 .tblm.tblotr:before {content:"\f06a"!important;}
+.tblm .tblmrexp {text-align:justify;flex:1 0 100%;background:var(--mback1);position:relative;border-top:var(--border1);box-sizing:border-box;padding:12px;font-size:var(--fontsize2);line-height:120%;}
 /* TABLILLAS DE ROL */
 .tblrol {margin:0 auto!important;width:100%;max-width:520px!important;border:var(--border0);box-sizing:border-box;}
 .tblrol>br {display:none;}
