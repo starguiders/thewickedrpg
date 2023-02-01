@@ -68,7 +68,8 @@
 .tblm.tblden:before {content:"\f057"!important;}
 .tblm.tblreg:before {content:"\f085"!important;}
 .tblm.tblotr:before {content:"\f06a"!important;}
-.tblm .tblmrexp {text-align:justify;flex:1 0 100%;background:var(--mback1);position:relative;border-top:var(--border1);box-sizing:border-box;padding:12px;font-size:var(--fontsize2);line-height:120%;}
+.tblm .tblmrexp {text-align:justify;flex:1 0 100%;background:var(--mback1);position:relative;border-top:var(--border1);box-sizing:border-box;padding:12px;font-size:var(--fontsize2)!important;line-height:120%!important;}
+.tblm .tblmrexp.tblmhidden br {display:none!important;}
 /* TABLILLAS DE ROL */
 .tblrol {margin:0 auto!important;width:100%;max-width:520px!important;border:var(--border0);box-sizing:border-box;}
 .tblrol>br {display:none;}
