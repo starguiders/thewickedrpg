@@ -63,8 +63,8 @@
 .tblm .tblmcnt>strong:after {content:"";display:block;height:1px;width:40px;margin:3px auto 5px;background:var(--border2-c);}
 .tblm .tblmcnt>em {text-transform:uppercase;font-style:normal;font:bold var(--fontsize0) var(--font2);color:var(--text2);line-height:100%;}
 .tblm .tblmcnt>em>a {color:var(--text0)!important;}
-.tblm.tblacc:before {content:"\f058"!important;}
-.tblm.tblrev:before {content:"\e10a"!important;}
+.tblm.tblacc:before {content:"\f058"!important;top:-30px;}
+.tblm.tblrev:before {content:"\e10a"!important;top:-30px;}
 .tblm.tblden:before {content:"\f057"!important;}
 .tblm.tblreg:before {content:"\f085"!important;}
 .tblm.tblotr:before {content:"\f06a"!important;}
