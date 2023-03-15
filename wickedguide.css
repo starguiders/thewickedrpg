@@ -103,19 +103,19 @@
 .gdcpdesc>i, .gdcpdesc>em {color:var(--text2);}
 /* RAZAS */
 .gdcvamp .gdctitle>em:before, .gdcvamp>h1:before, .gdcvamp>h1:after, .gdcvamp .gdcskill:before, .gdcvamp .gdcgtitle:before {background:var(--vampiros);}
-.gdcvamp>h4, .gdcvamp .gdcgdesc .gdclist>p:before, .gdcvamp strong {color:var(--vampiros);}
+.gdcvamp>h4, .gdcvamp .gdcgdesc .gdclist>p:before, .gdcvamp .gdclist>p:before, .gdcvamp strong {color:var(--vampiros);}
 .gdcvamp h5:after {background-color:var(--vampiros);}
 .gdclican .gdctitle>em:before, .gdclican>h1:before, .gdclican>h1:after, .gdclican .gdcskill:before, .gdclican .gdcgtitle:before {background:var(--lican);}
-.gdclican>h4, .gdclican .gdcgdesc .gdclist>p:before, .gdclican strong {color:var(--lican);}
+.gdclican>h4, .gdclican .gdcgdesc .gdclist>p:before, .gdclican .gdclist>p:before, .gdclican strong {color:var(--lican);}
 .gdclican h5:after {background-color:var(--lican);}
 .gdcbrujo .gdctitle>em:before, .gdcbrujo>h1:before, .gdcbrujo>h1:after, .gdcbrujo .gdcskill:before, .gdcbrujo .gdcgtitle:before {background:var(--brujos);}
-.gdcbrujo>h4, .gdcbrujo .gdcgdesc .gdclist>p:before, .gdcbrujo strong {color:var(--brujos);}
+.gdcbrujo>h4, .gdcbrujo .gdcgdesc .gdclist>p:before, .gdcbrujo .gdclist>p:before, .gdcbrujo strong {color:var(--brujos);}
 .gdcbrujo h5:after {background-color:var(--brujos);}
 .gdcsiren .gdctitle>em:before, .gdcsiren>h1:before, .gdcsiren>h1:after, .gdcsiren .gdcskill:before, .gdcsiren .gdcgtitle:before {background:var(--sirenas);}
-.gdcsiren>h4, .gdcsiren .gdcgdesc .gdclist>p:before, .gdcsiren strong {color:var(--sirenas);}
+.gdcsiren>h4, .gdcsiren .gdcgdesc .gdclist>p:before, .gdcsiren .gdclist>p:before, .gdcsiren strong {color:var(--sirenas);}
 .gdcsiren h5:after {background-color:var(--sirenas);}
 .gdchuman .gdchuman>em:before, .gdchuman>h1:before, .gdchuman>h1:after, .gdchuman .gdcskill:before, .gdchuman .gdcgtitle:before {background:var(--humanos);}
-.gdchuman>h4, .gdchuman .gdcgdesc .gdclist>p:before, .gdchuman strong {color:var(--humanos);}
+.gdchuman>h4, .gdchuman .gdcgdesc .gdclist>p:before, .gdchuman .gdclist>p:before, .gdchuman strong {color:var(--humanos);}
 .gdchuman h5:after {background-color:var(--humanos);}
 .gdcvamp>h1, .gdclican>h1, .gdcbrujo>h1, .gdcsiren>h1, .gdchuman>h1 {text-transform:uppercase;text-align:center;display:flex;justify-content:center;align-items:center;gap:12px;color:var(--text0);font:800 var(--fontsize8) var(--font1);margin:8px 25px;word-break:break-word;line-height:100%;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;}
 .gdcvamp>h1:before, .gdcvamp>h1:after, .gdclican>h1:before, .gdclican>h1:after, .gdcbrujo>h1:before, .gdcbrujo>h1:after, .gdcsiren>h1:before, .gdcsiren>h1:after, .gdchuman>h1:before, .gdchuman>h1:after {content:"";flex:1;height:1px;opacity:0.6;min-width:20px;}
