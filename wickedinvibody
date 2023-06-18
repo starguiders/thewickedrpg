@@ -1,0 +1,15 @@
+body.invibody {width:100%;height:100%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:auto;padding:20px!important;text-align:center;background-color:var(--accent3);}
+.construcción {width:100%;max-width:280px;}
+.cnheader {text-transform:lowercase;color:var(--text0);font:normal var(--fontsize9) var(--font5);line-height:85%;}
+.cntexto {text-align:justify;font:normal var(--fontsize3) var(--font1);line-height:110%;}
+.cntexto:before {content:\"\";display:block;margin:12px auto;height:40px;width:1px;background:var(--border2-c);}
+.cnform {margin:12px;border:var(--border0);box-sizing:border-box;}
+.cnheader2 {text-transform:uppercase;font:800 var(--fontsize3) var(--font4);box-sizing:border-box;border-bottom:var(--border0);background:var(--tbckg1);padding:8px;line-height:100%;color:var(--text1);}
+.cnform .formlogin {box-sizing:border-box;padding:12px;background:var(--tbckg2);}
+.formlogin form {display:flex;flex-direction:column;gap:6px;}
+.formlogin form>label {font:bold var(--fontsize1) var(--font2);border:var(--border0);border-bottom:none!important;margin-bottom:-6px;padding:4px;box-sizing:border-box;background:var(--mback1);color:var(--text2)!important;}
+.formlogin form input {padding:6px;}
+.formlogin form .formbotones {display:flex;flex-direction:row;width:100%;gap:6px;margin-bottom:6px;}
+.formlogin form .formbotones>input#autologin {display:none!important;}
+input.checkbox:checked + label[for=\"autologin\"] {font-style:normal!important;background:var(--mback2)!important;}
+.formbotones>label, .formbotones>a {text-transform:uppercase;font:700 var(--fontsize2) var(--font4);border:var(--border1)!important;align-self:stretch;padding:6px;margin:0px!important;background:var(--tbckg1);color:var(--accent1)!important;line-height:100%;font-style:italic;transition:var(--transi1);}
