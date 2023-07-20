@@ -384,6 +384,39 @@
 .tbcomb.solo .tbco .tbcores {margin-bottom:-12px;border-bottom:none;}
 .tbcomb.solo .tbco {align-self:stretch;justify-content:space-between;}
 .tbcomb.solo .tbco .tbcores {flex:1;}
+/* MERCADILLO */
+/*base*/
+.tbmerc {box-sizing:border-box;margin:0 auto;max-width:500px;width:100%;border-top:var(--border0);border-right:var(--border0);border-left:var(--border0);display:flex;flex-direction:column;align-items:center;}
+.mercim {text-align:center;box-sizing:border-box;padding:10px;max-width:500px;width:100%;height:200px;filter:grayscale(1) brightness(0.6);background-size:cover!important;background-position:center!important;border-bottom:var(--border0);display:flex;flex-direction:column;align-items:center;justify-content:center;font:bold var(--fontsize1) var(--font2);color:var(--text2);}
+.mercim h {font:normal var(--fontsize10) var(--font5);text-transform:lowercase;color:var(--text0)!important;line-height:85%;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;}
+.mercim span {max-width:400px;box-sizing:border-box;width:100%;height:60px;overflow-y:auto;margin:0 auto;}
+.mercim span::before {content:"";display:block;margin:2px auto 6px;width:60px;height:1px;background:var(--accent2);}
+.tbnpc {display:flex;align-items:center;justify-content:space-evenly;flex-wrap:wrap;max-width:500px;width:100%;min-height:300px;border-bottom:var(--border0);}
+.npcim {border-right:var(--border0);max-width:250px;flex:1;height:300px;min-width:120px;position:relative;}
+.npcim>img {position:relative;top:0;left:0;width:250px;height:300px;filter:grayscale(1) brightness(0.6);opacity:0.6;z-index:0;object-fit:cover;object-position:center;}
+.npcdata {background:var(--tbckg3);max-width:250px;flex:1;height:300px;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:5px;padding:10px;min-width:150px;box-sizing:border-box;}
+.npcdata>em {display:flex;flex-direction:column;align-items:center;justify-content:center;text-transform:uppercase;gap:3px;font-style:normal;max-width:200px;}
+/*fin de base*/
+/*vampiros*/
+.npcim.vamp::before {content:"";background:linear-gradient(0deg, var(--vampiros) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
+.npcdata.vamp>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--vampiros)!important;}
+.npcdata.vamp>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--vampiros)!important;line-height:100%;}
+/*licantropos*/
+.npcim.lican::before {content:"";background:linear-gradient(0deg, var(--lican) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
+.npcdata.lican>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--lican)!important;}
+.npcdata.lican>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--lican)!important;line-height:100%;}
+/*brujos*/
+.npcim.brujos::before {content:"";background:linear-gradient(0deg, var(--brujos) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
+.npcdata.brujos>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--brujos)!important;}
+.npcdata.brujos>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--brujos)!important;line-height:100%;}
+/*sirenas*/
+.npcim.siren::before {content:"";background:linear-gradient(0deg, var(--sirenas) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
+.npcdata.siren>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--sirenas)!important;}
+.npcdata.siren>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--sirenas)!important;line-height:100%;}
+/*humanos*/
+.npcim.human::before {content:"";background:linear-gradient(0deg, var(--humanos) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
+.npcdata.human>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--humanos)!important;}
+.npcdata.human>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--humanos)!important;line-height:100%;}
 /* MEDIA */
 @media (max-width: 766px) {
 .tbficha .tbfisec2 .tbfidata>em>span {width:min-content;}
