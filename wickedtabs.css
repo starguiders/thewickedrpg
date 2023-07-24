@@ -417,6 +417,21 @@
 .npcim.human::before {content:"";background:linear-gradient(0deg, var(--humanos) 0%, transparent 100%);height:100%;width:100%;opacity:0.4;position:absolute;z-index:1;}
 .npcdata.human>em>span {font:600 var(--fontsize3) var(--font4);color:var(--text1);line-height:100%!important;padding:3px 4px;background:var(--humanos)!important;}
 .npcdata.human>em>strong {font:bold var(--fontsize1) var(--font2);color:var(--humanos)!important;line-height:100%;}
+/* MAPAS */
+.wickmap {width:100%;flex-direction:column;justify-content:center;align-items:center;margin:0px auto;}
+.wickmap .mapimg {width:100%;object-fit:contain;border-left:var(--border0);border-right:var(--border0);box-sizing:border-box;}
+.maptitle {width:100%;text-align:center;border:var(--border0);padding:33px;box-sizing:border-box;background:var(--tbckg1);}
+.maptitle>strong {text-transform:lowercase;font:normal var(--fontsize9) var(--font5)!important;line-height:85%!important;color:var(--text0)!important;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;display:block;}
+.maptitle>x {display:block;height:1px;width:40px;background:var(--accent1);margin:4px auto 6px;}
+.maptitle>em {text-transform:uppercase;font-style:normal;font:bold var(--fontsize1) var(--font2);color:var(--text2);line-height:100%;}
+.mapleg {width:100%;text-align:center;border:var(--border0);padding:20px;box-sizing:border-box;background:var(--tbckg3);justify-content:center;align-items:center;flex-wrap:wrap;gap:8px 6px;}
+.mapleg>em {color:var(--subtitle2);padding:1px 4px;margin-right:2px;text-transform:uppercase;font:800 var(--fontsize3) var(--font4);font-style:normal;}
+/* mapa 1 */
+.wickmap.map1 {max-width:600px;}
+.wickmap.map1 .mapimg {max-width:601px;max-height:601px;}
+/* mapa 2 */
+.wickmap.map2 {max-width:600px;}
+.wickmap.map2 .mapimg {max-width:601px;max-height:601px;}
 /* MEDIA */
 @media (max-width: 766px) {
 .tbficha .tbfisec2 .tbfidata>em>span {width:min-content;}
