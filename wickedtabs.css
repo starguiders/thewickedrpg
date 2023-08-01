@@ -394,7 +394,7 @@
 .tbnpc {display:flex;align-items:center;justify-content:space-evenly;flex-wrap:wrap;max-width:500px;width:100%;min-height:300px;border-bottom:var(--border0);}
 .npcim {border-right:var(--border0);max-width:250px;flex:1;height:300px;min-width:120px;position:relative; display: flex; align-items: flex-end; justify-content: center;}
 .npcim>img {position:absolute;top:0;left:0;width:250px;height:300px;z-index:0;object-fit:cover;object-position:center;}
-.npcim span{font-family: var(--font5); font-size: 30px; opacity: 0; transition: ease-in-out 1s; margin-bottom: 20px; color: var(--text0);}
+.npcim span {z-index:1; font-family: var(--font5); font-size: 30px; opacity: 0; transition: ease-in-out 1s; margin-bottom: 20px; color: var(--text0);}
 .npcim:hover span{opacity:1;}
 .npcdata {background:var(--tbckg3);max-width:250px;flex:1;height:300px;display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:5px;padding:10px;min-width:150px;box-sizing:border-box;}
 .npcdata>em {display:flex;flex-direction:column;align-items:center;justify-content:center;text-transform:uppercase;gap:3px;font-style:normal;max-width:200px;}
